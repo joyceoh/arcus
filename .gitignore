@@ -1,0 +1,7 @@
+node_modules/
+venv/
+*.pyc
+__pycache__/
+.env
+.pnpm-store/
+pnpm-lock.yaml  # Only if you don't want to commit the lock file
