@@ -1,6 +1,6 @@
 # Python command
 PYTHON := python3
-VENV_ACTIVATE := . venv/bin/activate &&
+VENV_ACTIVATE := source venv/bin/activate &&
 
 .PHONY: help setup frontend-install backend-install dev-frontend dev-backend dev lint
 
